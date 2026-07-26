@@ -49,7 +49,3 @@ pyinstaller --onefile --collect-all PyQt6 --icon=icon.ico --add-data "KONTONBOOG
 ```
 
 Common fix: make sure the video filename in `--add-data` exactly matches the filename used in `resource_path(...)` inside the script.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
